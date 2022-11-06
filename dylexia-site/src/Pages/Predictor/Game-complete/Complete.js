@@ -43,23 +43,23 @@ const Complete = () => {
         </Link> */}
         <Form onSubmit={onFormSubmit}>
           <Form.Group>
-            <Form.Label>Gender</Form.Label>
-            <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
+            <center><Form.Label>Gender</Form.Label></center>
+            <center><Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
               <option value="0">Female</option>
               <option value="1">Male</option>
-            </Form.Control>
+            </Form.Control></center>
           </Form.Group>
 
           <Form.Group>
-            <Form.Label>Age</Form.Label>
-            <Form.Control type="number"></Form.Control>
+            <center><Form.Label>Age</Form.Label></center>
+            <center><Form.Control type="number"></Form.Control></center>
             <Form.Text className="text-muted">
             </Form.Text>
           </Form.Group>
 
-          <Button variant="secondary" type="submit" onClick={func}>Submit</Button>
+          <center><Button variant="secondary" type="submit" onClick={func}>Submit</Button></center>
         </Form>
-        <div>{submit && <div>We predict based on our model that you are {dataFinal ? 'not dyslexic' : 'dyslexic'}</div>}</div>
+        <center><div>{submit && <div>We predict based on our model that you are {dataFinal ? 'not dyslexic' : 'dyslexic'}</div>}</div></center>
     </div>
   )
 }
