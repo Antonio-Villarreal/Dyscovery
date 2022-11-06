@@ -1,5 +1,5 @@
 //Components
-import Introduction from '../Components/Introduction';
+import Introduction from '../Components/Introduction/intro';
 import Navbar from '../Components/Navbar/Navbar';
 import Section from '../Components/Section/section';
 

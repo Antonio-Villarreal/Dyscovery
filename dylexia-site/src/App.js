@@ -83,7 +83,6 @@ function App() {
   const func = () => {
     InsertData(List);
   };
-
   return (
     <div class="App">
       <Router>
@@ -103,7 +102,7 @@ function App() {
           <Route path="/game-complete" element={<Game_Complete/>}/>
         </Routes>
       </Router>
-     </div>
+    </div>
   );
 }
 
