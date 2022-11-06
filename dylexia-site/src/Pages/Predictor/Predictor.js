@@ -28,9 +28,12 @@ const Predictor = () => {
               than five minutes to complete!
             </p>
           </div>
-          <div>
+          <div className='Button'>
           <Link to='/game1-instruct'>
-            <Button>CLICK HERE</Button>
+            <center>
+            <Button >CLICK HERE</Button>
+            </center>
+            
           </Link>
           </div>
           <div>

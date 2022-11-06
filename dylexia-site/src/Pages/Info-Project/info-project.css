@@ -1,5 +1,9 @@
 .App {
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
   }
   
+
+  h1, h3, h2, h4{
+    padding-left: 20px;
+  }
