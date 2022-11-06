@@ -36,8 +36,7 @@ const Info_Project = () => {
             developed a similar test for their Spanish demographic.
           </p>
           <div>
-            <h3>Materials and Method:</h3>
-            <p>
+            
               <h3>Method:</h3>
               <p>
                 We have designed four interactive game excersizes made by our team
@@ -45,7 +44,7 @@ const Info_Project = () => {
                 dataset along with our machine learning model work hand in hand to
                 predict whether a child has dyslexia or not.
               </p>
-            </p>
+          
             <div>
               <h3>Content Design:</h3>
               <p>
@@ -85,16 +84,16 @@ const Info_Project = () => {
                 to the fact that the elements are harder to distinguish, because
                 they are phonetically and orthographically more similar.
               </p>
+            
+              <h4>Game 3</h4>
               <p>
-                <h4>Game 3</h4>
-                <p>
-                  Game 3 shifts on to our next method of detecting dyslexia, where
-                  we have designed a scramble of five letters and the individual
-                  has to re-order them in a way that builds a real word. This
-                  tests their word identification, lexical knowledge, and other
-                  linguistic skills to figure out whether they are able to
-                  accurately form words over a certain period of time.
-                </p>
+                Game 3 shifts on to our next method of detecting dyslexia, where
+                we have designed a scramble of five letters and the individual
+                has to re-order them in a way that builds a real word. This
+                tests their word identification, lexical knowledge, and other
+                linguistic skills to figure out whether they are able to
+                accurately form words over a certain period of time.
+              </p>
                 <h4>Game 4</h4>
                 <p>
                   Like Game 2, Game 4 ties closely to Game 3 but in a
@@ -103,7 +102,7 @@ const Info_Project = () => {
                   letter in the word. This determines whether the individual is
                   able to correctly identify words using their lexical knowledge.
                 </p>
-              </p>
+              
               <div>
                 <h3> Dependent Measures: </h3>
                 <p>
