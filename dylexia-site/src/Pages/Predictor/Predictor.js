@@ -3,59 +3,40 @@ import Navbar from '../../Components/Navbar/Navbar'
 import { Link } from 'react-router-dom';
 import './Predictor.css'
 import { Button, Form } from 'react-bootstrap'
+import img1 from "./Images/Dyslexia_image2.jpg";
 
 const Predictor = () => {
-  const [dataFinal, setdata] = useState([]);
-  const [field, setField] = useState([]);
-  const [out, setOut] = useState([]);
-  const [blank, setBlank] = useState(true);
 
-  const [gender, setGender] = useState("");
-  const [age, setAge] = useState("");
-
-  const onFormSubmit = (e) => {
-    e.preventDefault();
-    let gender = parseInt(e.target[0].value);
-    let age = (e.target[1].value);
-    let data = [[gender, age]]
-    fetch("http://localhost:8080/predict", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify(data)
-    }).then((response) => response.json())
-    .then((data) => {
-      setdata(data);
-      console.log(data);
-      setOut(data);
-    }).then(setBlank(false));
-  }
   return (
     <div>
         <Navbar/>
-        <p>PLAY OUR GAME</p>
-        <Link to='/game1-instruct'>
-          <Button>CLICK HERE</Button>
-        </Link>
-
-        <Form onSubmit={onFormSubmit}>
-          <Form.Group>
-            <Form.Label>Gender</Form.Label>
-            <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
-              <option value="0">Female</option>
-              <option value="1">Male</option>
-            </Form.Control>
-          </Form.Group>
-
-          <Form.Group>
-            <Form.Label>Age</Form.Label>
-            <Form.Control type="number"></Form.Control>
-            <Form.Text className="text-muted">
-            </Form.Text>
-          </Form.Group>
-
-          <Button variant="secondary" type="submit">Submit</Button>
-        </Form>
-        <div>{dataFinal}</div>
+        <div>
+          <div className="App">
+            <h1>ARE YOU DYSLEXIC?</h1>
+          </div>
+          <div className="App1">
+            <h3>Want to find out?</h3>
+            <p>
+              Did you know that dyslexia affects over 10 percent of the world's
+              population? With such a big number, around 38 million Americans remain
+              undiagnosed with dyslexia. As a simple solution, we have come up with
+              a gamified model that can detect whether or not children between the
+              ages of 7 and 17 have dyslexia with an accuracy range of 80%-85%!
+            </p>
+            <p>
+              Just enter your gender and age, then begin our test. It'll take less
+              than five minutes to complete!
+            </p>
+          </div>
+          <div>
+          <Link to='/game1-instruct'>
+            <Button>CLICK HERE</Button>
+          </Link>
+          </div>
+          <div>
+            <img className="Images" src={img1} alt="image loading..."></img>
+          </div>
+        </div>
     </div>
   )
 }
