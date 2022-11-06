@@ -7,9 +7,9 @@ const index = () => {
   return (
     <div>
       <div>GAME 1</div>
-      <Link to='/game2-instruct'>
+      {/* <Link to='/game2-instruct'>
           <Button>CLICK HERE</Button>
-      </Link>
+      </Link> */}
       <Game1></Game1>
     </div>
   )
