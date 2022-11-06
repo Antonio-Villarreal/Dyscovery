@@ -1,26 +1,31 @@
-.grid {
+.grid1 {
     display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8%;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    position: absolute;
+    top: 100px;
+    right: 40%;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
     justify-content: center;
+    margin-top: 100px;
 }
 
-.box {
+.box1 {
     border-style: solid;
-    height: 5em;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    user-select: none;
+    width: 100px;
+    
 }
 
-.score {
+.score1 {
     position: absolute;
     top: 100px;
     right: 150px;
 }
 
-.timer {
+.timer1 {
     position: absolute;
     bottom: 100px;
     right: 150px;

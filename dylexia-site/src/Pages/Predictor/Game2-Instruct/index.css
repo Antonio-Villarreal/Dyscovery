@@ -1,10 +1,16 @@
 .App {
+    margin-top: 20%;
+    left: auto;
+    right: auto;
     font-family: sans-serif;
-    text-align: center;
-    margin-top: 25%;
+    justify-content: center;
   }
   .App1 {
     font-family: sans-serif;
     text-align: center;
-    margin-top: 10%;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
   }

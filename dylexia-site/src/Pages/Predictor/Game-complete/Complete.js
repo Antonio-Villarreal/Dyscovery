@@ -41,17 +41,17 @@ const Complete = () => {
         <Link to='/info-project'>
           <Button>CLICK HERE</Button>
         </Link> */}
-        <Form onSubmit={onFormSubmit}>
-          <Form.Group>
-            <Form.Label>Gender</Form.Label>
+        <Form onSubmit={onFormSubmit} class="form">
+          <Form.Group class="gender_group">
+            <Form.Label class= "gender">Gender</Form.Label>
             <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
               <option value="0">Female</option>
               <option value="1">Male</option>
             </Form.Control>
           </Form.Group>
 
-          <Form.Group>
-            <Form.Label>Age</Form.Label>
+          <Form.Group class="age_group">
+            <Form.Label class="age">Age</Form.Label>
             <Form.Control type="number"></Form.Control>
             <Form.Text className="text-muted">
             </Form.Text>
