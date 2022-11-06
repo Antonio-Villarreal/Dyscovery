@@ -8,7 +8,6 @@ const Introduction = () => {
         <body>
             <div className='hero-container'>
             <img src={bgPic}/>
-                <h1>Hello World</h1>
             </div>
         </body>
     )
