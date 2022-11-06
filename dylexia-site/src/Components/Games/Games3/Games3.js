@@ -5,8 +5,8 @@ import './Games3.css'
 
 const Games3 = () => {
   
-  const stringArray = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
-  const stringArray2 = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
+  const stringArray = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
+  const stringArray2 = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
   const [word, setWord] = useState(['g', 'a', 't', 'o', 'r']);
   const [scramble, setScramble] = useState(['o', 't', 'a', 'g', 'r'])
   const [index, setIndex] = useState(0)

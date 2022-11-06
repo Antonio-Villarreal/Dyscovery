@@ -4,8 +4,8 @@ import './Games4.css'
 
 
 const Games4 = () => {
-    const wordBank = [['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd']]
-    const letterBank = [['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f']]
+    const wordBank = [['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd']]
+    const letterBank = [['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f']]
     const [word, setWord] = useState(['h', 'e', 'l', 'f', 's', 'e', 'a'])
     const [letters, setLetters] = useState(['b', 'd', 'v', 'a', 'r'])
     const [score, setScore] = useState(0)
