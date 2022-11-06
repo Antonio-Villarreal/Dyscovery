@@ -103,6 +103,10 @@ function App() {
           <Route path="/game-complete" element={<Game_Complete/>}/>
         </Routes>
       </Router>
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 54fd4d0cdadc3446dc8029cf0fe6e819fad11c78
     </div>
   );
 }
