@@ -5,7 +5,14 @@ import { Button } from '../../../Components/Button/Button';
 const index = () => {
   return (
     <div>
-      <div>GAME 2 INSTRUCTIONS</div>
+      <div>
+        <div className="App">
+          <h1>Game 2</h1>
+        </div>
+        <div className="App1">
+          <h2>Find the 'F' among the 'E'</h2>
+        </div>
+      </div>
       <Link to='/game2-play'>
           <Button>CLICK HERE</Button>
       </Link>

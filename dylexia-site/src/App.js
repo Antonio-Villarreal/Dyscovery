@@ -15,7 +15,7 @@ import Game3_Instruct from './Pages/Predictor/Game3-Instruct/index';
 import Game3_Play from './Pages/Predictor/Game3-Play/index';
 import Game4_Instruct from './Pages/Predictor/Game4-Instruct/index';
 import Game4_Play from './Pages/Predictor/Game4-Play/index';
-import Game_Complete from './Pages/Predictor/Game-complete/index';
+import Game_Complete from './Pages/Predictor/Game-complete/Complete';
 
 const List = [1,7,2,2,0,2,1,0,3,3,0,3,1,8,5,3,2,3,0,6,0,4,9,1,0.1,0.1];
 
@@ -103,15 +103,6 @@ function App() {
           <Route path="/game-complete" element={<Game_Complete/>}/>
         </Routes>
       </Router>
-      
-      {/* Flask Stuff */}
-      <header className="App-header">
-        {func}
-
-        <h1>React and flask</h1>
-        {/* Calling a data from setdata for showing */}
-        <p>testing</p>
-      </header>
     </div>
   );
 }

@@ -13,3 +13,7 @@
     top: 50%;
     user-select: none;
 }
+
+.separator {
+    padding: 50px;
+}
