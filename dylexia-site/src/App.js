@@ -103,15 +103,7 @@ function App() {
           <Route path="/game-complete" element={<Game_Complete/>}/>
         </Routes>
       </Router>
-      
-      {/* Flask Stuff */}
-      <header className="App-header">
-        {func}
-
-        <h1>React and flask</h1>
-        {/* Calling a data from setdata for showing */}
-        <p>testing</p>
-      </header>
+ 
     </div>
   );
 }

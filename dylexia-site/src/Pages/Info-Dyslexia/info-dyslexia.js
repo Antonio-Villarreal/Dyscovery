@@ -71,7 +71,9 @@ const Information = () => {
         For more information, here is a video that delves deeper into dyslexia
         in a very interesting and descriptive way!
       </p>
-      https://youtu.be/zafiGBrFkRM
+      <p><a href="https://youtu.be/zafiGBrFkRM">Click here</a></p>
+      
+      
     </div>
   )
 }

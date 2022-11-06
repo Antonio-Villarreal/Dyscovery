@@ -1,6 +1,7 @@
-.App {
+.App {  
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
+    background-color: rgb(210, 210, 210);
   }
   .Images {
     width: 200px;
@@ -9,4 +10,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  h1, p, h3{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
   
