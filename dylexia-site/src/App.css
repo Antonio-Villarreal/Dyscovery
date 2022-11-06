@@ -50,12 +50,3 @@ img {
   display: block;
   max-width: 100%;
 }
-
-:focus {
-  outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
-}
-
-.App {
-  font-family: 'Montserrat', sans-serif;
-}
