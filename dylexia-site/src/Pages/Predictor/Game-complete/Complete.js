@@ -41,14 +41,17 @@ const Complete = () => {
         <Link to='/info-project'>
           <Button>CLICK HERE</Button>
         </Link> */}
+
         <Form onSubmit={onFormSubmit} class="form">
           <Form.Group class="gender_group">
             <Form.Label class= "gender">Gender</Form.Label>
             <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
+
               <option value="0">Female</option>
               <option value="1">Male</option>
-            </Form.Control>
+            </Form.Control></center>
           </Form.Group>
+
 
           <Form.Group class="age_group">
             <Form.Label class="age">Age</Form.Label>
@@ -57,9 +60,9 @@ const Complete = () => {
             </Form.Text>
           </Form.Group>
 
-          <Button variant="secondary" type="submit" onClick={func}>Submit</Button>
+          <center><Button variant="secondary" type="submit" onClick={func}>Submit</Button></center>
         </Form>
-        <div>{submit && <div>We predict based on our model that you are {dataFinal ? 'not dyslexic' : 'dyslexic'}</div>}</div>
+        <center><div>{submit && <div>We predict based on our model that you are {dataFinal ? 'not dyslexic' : 'dyslexic'}</div>}</div></center>
     </div>
   )
 }
