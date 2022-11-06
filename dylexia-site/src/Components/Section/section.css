@@ -1,0 +1,13 @@
+.cont__tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.icon svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }

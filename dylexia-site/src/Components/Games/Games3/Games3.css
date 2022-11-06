@@ -1,0 +1,23 @@
+.textBox1 {
+    border-style: solid;
+    display: block;
+    width: 24%;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    right: 38%;
+}
+
+.textBox2 {
+    border-style: solid;
+    display: block;
+    width: 24%;
+    height: 100px;
+    position: absolute;
+    bottom: 30%;
+    right: 38%;
+}
+
+.scramble {
+    justify-content: center;
+}

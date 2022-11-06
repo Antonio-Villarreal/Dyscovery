@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Images {
+    width: 200px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

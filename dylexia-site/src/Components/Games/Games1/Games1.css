@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8% 8%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-content: center;
+}
+
+.box {
+    border-style: solid;
+    height: 5em;
+    padding: 30px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.score {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+
+.timer {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+}
