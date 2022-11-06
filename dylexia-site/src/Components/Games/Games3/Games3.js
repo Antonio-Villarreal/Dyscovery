@@ -79,24 +79,24 @@ const Games3 = () => {
 
   return (
     <div class="container">
-      <div class="grid">
-        <div class="box"><h1>{solution[0]}</h1></div>
-        <div class="box"><h1>{solution[1]}</h1></div>
-        <div class="box"><h1>{solution[2]}</h1></div>
-        <div class="box"><h1>{solution[3]}</h1></div>
-        <div class="box"><h1>{solution[4]}</h1></div>
-        <div class="box" onClick={() => handleClick(0)}><h1>{scramble[0]}</h1></div>
-        <div class="box" onClick={() => handleClick(1)}><h1>{scramble[1]}</h1></div>
-        <div class="box" onClick={() => handleClick(2)}><h1>{scramble[2]}</h1></div>
-        <div class="box" onClick={() => handleClick(3)}><h1>{scramble[3]}</h1></div>
-        <div class="box" onClick={() => handleClick(4)}><h1>{scramble[4]}</h1></div>
+      <div class="grid3">
+        <div class="box33"><h1>{solution[0]}</h1></div>
+        <div class="box33"><h1>{solution[1]}</h1></div>
+        <div class="box33"><h1>{solution[2]}</h1></div>
+        <div class="box33"><h1>{solution[3]}</h1></div>
+        <div class="box33"><h1>{solution[4]}</h1></div>
+        <div class="box3" onClick={() => handleClick(0)}><h1>{scramble[0]}</h1></div>
+        <div class="box3" onClick={() => handleClick(1)}><h1>{scramble[1]}</h1></div>
+        <div class="box3" onClick={() => handleClick(2)}><h1>{scramble[2]}</h1></div>
+        <div class="box3" onClick={() => handleClick(3)}><h1>{scramble[3]}</h1></div>
+        <div class="box3" onClick={() => handleClick(4)}><h1>{scramble[4]}</h1></div>
       </div>
       <div>
-        <h1>{score}</h1>
+        <h1 class="score3">{score}</h1>
       </div>
       <div>
-        <h1 class="timer">{useEffect(() => {onStart()}, [])}</h1>
-        {timer < 31 && <h1 class="timer">{timer}</h1>}
+        <h1 class="timer3">{useEffect(() => {onStart()}, [])}</h1>
+        {timer < 31 && <h1 class="timer3">{timer}</h1>}
         {timer > 30 && navigateToNext()}
       </div>
     </div>

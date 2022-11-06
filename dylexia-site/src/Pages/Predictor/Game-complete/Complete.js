@@ -41,18 +41,21 @@ const Complete = () => {
         <Link to='/info-project'>
           <Button>CLICK HERE</Button>
         </Link> */}
-        <Form onSubmit={onFormSubmit}>
-          <Form.Group>
-            <center><Form.Label>Gender</Form.Label></center>
-            <center><Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
+
+        <Form onSubmit={onFormSubmit} class="form">
+          <Form.Group class="gender_group">
+            <Form.Label class= "gender">Gender</Form.Label>
+            <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
+
               <option value="0">Female</option>
               <option value="1">Male</option>
             </Form.Control></center>
           </Form.Group>
 
-          <Form.Group>
-            <center><Form.Label>Age</Form.Label></center>
-            <center><Form.Control type="number"></Form.Control></center>
+
+          <Form.Group class="age_group">
+            <Form.Label class="age">Age</Form.Label>
+            <Form.Control type="number"></Form.Control>
             <Form.Text className="text-muted">
             </Form.Text>
           </Form.Group>

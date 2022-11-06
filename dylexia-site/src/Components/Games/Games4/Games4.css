@@ -1,19 +1,71 @@
-.grid {
+.grid4 {
     display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8%;
-    grid-column-gap: 10px;
-    grid-row-gap: 100px;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
     justify-content: center;
+    position: absolute;
+    padding: 100px;
+    top: 100px;
+    right: 550px;
 }
 
-.box {
-    border-style: solid;
-    border-radius: 10px;
-    position: relative;
-    top: 50%;
-    user-select: none;
+
+.grid44 {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    position: absolute;
+    padding: 100px;
+    top: 300px;
+    right: 550px;
 }
 
 .separator {
-    padding: 50px;
+    width: 50px;
+    position: relative;
+
 }
+
+.box4 {
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 150px;
+    min-height: 150px;
+    font-size: 25px;
+ }
+
+ .box4:active {
+    background-color: #eee
+ }
+
+ .box44 {
+    border-style: solid;
+    border-bottom: 5px, black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    min-height: 150px;
+    font-size: 25px;
+ }
+
+.score4 {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+
+.timer4 {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+}
+

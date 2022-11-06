@@ -1,0 +1,26 @@
+.form {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+
+.age {
+    font-size: 40px;
+}
+
+.gender {
+    font-size: 40px;
+}
+
+.age_group {
+    width: 100%;
+    height: 100%;
+}
+
+.gender_group {
+    width: 100%;
+    height: 100%;   
+}

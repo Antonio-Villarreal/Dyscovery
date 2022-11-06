@@ -1,9 +1,9 @@
 .App {
-    font-family: sans-serif;
-    text-align: left;
-  }
-  
+  font-family: sans-serif;
+  text-align: left;
+}
 
-  h1, h3, h2, h4{
-    padding-left: 20px;
-  }
+
+h1, h3, h2, h4{
+  padding-left: 20px;
+}
