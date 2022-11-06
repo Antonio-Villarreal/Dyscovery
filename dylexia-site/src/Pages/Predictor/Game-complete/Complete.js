@@ -12,6 +12,12 @@ const Complete = () => {
   const [gender, setGender] = useState("");
   const [age, setAge] = useState("");
 
+  const [submit, setSubmit] = useState(false);
+
+  const func = () => {
+      setSubmit(true);
+  }
+
   const onFormSubmit = (e) => {
     e.preventDefault();
     let gender = parseInt(e.target[0].value);
@@ -31,11 +37,10 @@ const Complete = () => {
   
   return (
     <div>
-      <div>DONE - RESULTS</div>
+      {/* <div>DONE - RESULTS</div>
         <Link to='/info-project'>
           <Button>CLICK HERE</Button>
-        </Link>
-
+        </Link> */}
         <Form onSubmit={onFormSubmit}>
           <Form.Group>
             <Form.Label>Gender</Form.Label>
@@ -52,9 +57,9 @@ const Complete = () => {
             </Form.Text>
           </Form.Group>
 
-          <Button variant="secondary" type="submit">Submit</Button>
+          <Button variant="secondary" type="submit" onClick={func}>Submit</Button>
         </Form>
-        <div>{dataFinal}</div>
+        <div>{submit && <div>We predict based on our model that you are {dataFinal ? 'not dyslexic' : 'dyslexic'}</div>}</div>
     </div>
   )
 }
