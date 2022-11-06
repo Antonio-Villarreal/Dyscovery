@@ -12,6 +12,7 @@
 
 .navbar-container {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   height: 80px;
@@ -30,7 +31,7 @@
 
 .logo {
   align-items: center;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   font-size: 25px;
   height: 65px;
@@ -61,7 +62,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -70,7 +71,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid rgb(255, 255, 255);
   transition: all 0.2s ease-out;
 }
 
@@ -104,7 +105,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #ffffff;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -119,7 +120,7 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #242424;
     border-radius: 0;
   }
@@ -142,7 +143,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
   }
 
@@ -155,14 +156,14 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
+    background: rgb(0, 0, 0);
     color: #242424;
     transition: 250ms;
   }

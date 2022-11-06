@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react'
+import {Routes, Route, useNavigate} from 'react-router-dom';
 import './Games2.css';
 
 
 
 const Games2 = () => {
+  const navigate = useNavigate();
   const charArray = ['q', 'd', 'p', 'b'];
   const [hits, setHits] = useState(0);
   const [letter, setLetter] = useState(['E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'F', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E']);
@@ -11,6 +13,10 @@ const Games2 = () => {
   const [misses, setMisses] = useState(0)
   const [timerId, setTimerId] = useState();
   const [timer, setTimer] = useState(0);
+
+  const navigateToNext = () => {
+    navigate('/game3-instruct');
+  };
 
   const onStart = () => {
       setTimerId(
@@ -92,8 +98,8 @@ const Games2 = () => {
       </div>
       <div>
         <h1 class="timer">{useEffect(() => {onStart()}, [])}</h1>
-        {timer < 15 && <h1 class="timer">{timer}</h1>}
-        {/* Move next */}
+        {timer < 16 && <h1 class="timer">{timer}</h1>}
+        {timer > 15 && navigateToNext()}
       </div>
     </div>
   )

@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react'
+import {Routes, Route, useNavigate} from 'react-router-dom';
 import './Games3.css'
 
 
 
 const Games3 = () => {
+  const navigate = useNavigate();
   
   const stringArray = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
   const stringArray2 = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
@@ -15,6 +17,10 @@ const Games3 = () => {
   const [clicks, setClicks] = useState(0)
   const [timerId, setTimerId] = useState();
   const [timer, setTimer] = useState(0);
+
+  const navigateToNext = () => {
+    navigate('/game4-instruct');
+  };
   
   const onStart = () => {
     setTimerId(
@@ -91,7 +97,7 @@ const Games3 = () => {
       <div>
         <h1 class="timer">{useEffect(() => {onStart()}, [])}</h1>
         {timer < 31 && <h1 class="timer">{timer}</h1>}
-        {/* Move next */}
+        {timer > 30 && navigateToNext()}
       </div>
     </div>
   )

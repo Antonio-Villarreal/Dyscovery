@@ -1,16 +1,23 @@
 import React, {useState, useEffect} from 'react'
+import {Routes, Route, useNavigate} from 'react-router-dom';
 import './Games1.css';
 
 
 
 const Games1 = () => {
+  const navigate = useNavigate();
   const charArray = ['q', 'd', 'p', 'b'];
-  const [hits, setHits] = useState(0);
   const [letter, setLetter] = useState(['q', 'b', 'p', 'q', 'p', 'b', 'd', 'd', 'p', 'q', 'b', 'd', 'p', 'q', 'd', 'p', 'q', 'b', 'q', 'p', 'b', 'd', 'd', 'p', 'q']);
-  const [clicks, setClicks] = useState(0)
-  const [misses, setMisses] = useState(0)
   const [timerId, setTimerId] = useState();
   const [timer, setTimer] = useState(0);
+  const [hits, setHits] = useState(0);
+  const [clicks, setClicks] = useState(0)
+  const [misses, setMisses] = useState(0)
+
+  const navigateToNext = () => {
+    navigate('/game2-instruct');
+  };
+  
 
   const onStart = () => {
       setTimerId(
@@ -89,8 +96,8 @@ const Games1 = () => {
       </div>
       <div>
         <h1 class="timer">{useEffect(() => {onStart()}, [])}</h1>
-        {timer < 15 && <h1 class="timer">{timer}</h1>}
-        {/* Move next */}
+        {timer < 16 && <h1 class="timer">{timer}</h1>}
+        {timer > 15 && navigateToNext()}
       </div>
     </div>
   )

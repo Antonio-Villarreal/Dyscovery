@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react'
+import {Routes, Route, useNavigate} from 'react-router-dom';
 import './Games4.css'
 
 
 
 const Games4 = () => {
+    const navigate = useNavigate();
     const wordBank = [['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd']]
     const letterBank = [['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f']]
     const [word, setWord] = useState(['h', 'e', 'l', 'f', 's', 'e', 'a'])
@@ -21,6 +23,10 @@ const Games4 = () => {
     const [timerId, setTimerId] = useState();
     const [timer, setTimer] = useState(0);
     const [clicks, setClicks] = useState(0)
+
+    const navigateToNext = () => {
+      navigate('/game-complete');
+    };
     
     const onStart = () => {
         setTimerId(
@@ -100,7 +106,7 @@ const Games4 = () => {
       <div>
       <h1 class="timer">{useEffect(() => {onStart()}, [])}</h1>
         {timer < 31 && <h1 class="timer">{timer}</h1>}
-        {/* Move next */}
+        {timer > 30 && navigateToNext()}
       </div>
     </div>
   )
