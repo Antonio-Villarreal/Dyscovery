@@ -1,35 +1,23 @@
 .grid3 {
     display: grid;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    grid-column-gap: 160px;
+    grid-row-gap: 40px;
+    justify-content: center;
     position: absolute;
-    top: 250px;
-    right: 40%;
-    grid-template-columns: 40px 40px 40px 40px 40px;
-    grid-column-gap: 100px;
-    grid-row-gap: 50px;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-
-.box3 {
-    border-style: solid;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    width: 100px;
-    min-height: 120px;
+    top: 400px;
+    right: 500px;
+    width: 800px;
     
 }
 
-.box33 {
+.box3 {
     border-style: solid;
-    border-bottom: 5px, black;
-    border-top: 5px, black;
-    border-left: 0;
-    border-right: 0;
-    display: flex;
-    justify-content: center;
-    width: 100px;
+    user-select: none;
+    width: 120px;
+    border-radius: 10px;
+    margin: 0 40px;
+    min-width: 120px;
     min-height: 120px;
 }
 

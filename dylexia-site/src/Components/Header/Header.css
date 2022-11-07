@@ -1,0 +1,30 @@
+.logo {
+    height: 2em;
+}
+
+.nav__list {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+}
+
+@media (max-width: 800px) {
+    .nav__list {
+        width: 270px;
+    }
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}

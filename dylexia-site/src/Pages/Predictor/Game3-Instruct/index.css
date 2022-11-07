@@ -1,17 +1,10 @@
-.content3 {
-  position: absolute;
-  top: 0px;
-  right: 900px;
-}
-
-.content33 {
-  position: absolute;
-  top: 150px;
-  right: 870px;
-}
-
-.content333 {
-  position: absolute;
-  top: 500px;
-  right: 1000px;
-}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25%;
+  }
+  .App1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10%;
+  }

@@ -1,7 +1,7 @@
 export default class APIService{
     // Insert an article
     static InsertData(body){
-        return fetch(`http://localhost:5000/add`,{
+        return fetch(`http://localhost:8080/add`,{
             'method':'POST',
              headers : {
             'Content-Type':'application/json'

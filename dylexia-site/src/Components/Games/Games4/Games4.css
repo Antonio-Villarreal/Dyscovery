@@ -1,61 +1,25 @@
 .grid4 {
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px 80px;
-    grid-column-gap: 100px;
-    grid-row-gap: 50px;
+    grid-template-columns: 10px 10px 10px 10px 10px;
+    grid-column-gap: 160px;
+    grid-row-gap: 40px;
     justify-content: center;
     position: absolute;
-    padding: 100px;
-    top: 100px;
-    right: 550px;
-}
-
-
-.grid44 {
-    display: grid;
-    grid-template-columns: 80px 80px 80px 80px 80px;
-    grid-column-gap: 100px;
-    grid-row-gap: 50px;
-    justify-content: center;
-    margin-top: 100px;
-    position: absolute;
-    padding: 100px;
-    top: 300px;
-    right: 550px;
-}
-
-.separator {
-    width: 50px;
-    position: relative;
-
+    top: 400px;
+    right: 500px;
+    width: 800px;
+    
 }
 
 .box4 {
     border-style: solid;
-    display: flex;
-    justify-content: center;
+    user-select: none;
+    width: 120px;
     border-radius: 10px;
-    width: 150px;
-    min-height: 150px;
-    font-size: 25px;
- }
-
- .box4:active {
-    background-color: #eee
- }
-
- .box44 {
-    border-style: solid;
-    border-bottom: 5px, black;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    display: flex;
-    justify-content: center;
-    width: 150px;
-    min-height: 150px;
-    font-size: 25px;
- }
+    margin: 0 40px;
+    min-width: 120px;
+    min-height: 120px;
+}
 
 .score4 {
     position: absolute;
@@ -68,4 +32,3 @@
     bottom: 100px;
     right: 150px;
 }
-

@@ -5,9 +5,9 @@ import './Games4.css'
 
 
 const Games4 = () => {
-    const navigate = useNavigate();
-    const wordBank = [['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd'], ['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd']]
-    const letterBank = [['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f'], ['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f']]
+  const navigate = useNavigate();
+    const wordBank = [['p', 'b', 'o', 'n', 'e', 'b', 'h'], ['q', 'o', 'u', 'r', 's', 'q', 'h'], ['c', 'o', 'm', 'd', 's', 'd', 'b'], ['f', 'l', 'o', 'a', 'r', 'a', 'u'], ['c', 'o', 'r', 'q', 's', 'q', 'd']]
+    const letterBank = [['h', 'j', 'd', 't', 'u'], ['b', 'r', 'h', 'g', 'k'], ['j', 'b', 'g', 't', 's'], ['r', 'w', 'u', 'e', 'q'], ['d', 'x', 'a', 'y', 'f']]
     const [word, setWord] = useState(['h', 'e', 'l', 'f', 's', 'e', 'a'])
     const [letters, setLetters] = useState(['b', 'd', 'v', 'a', 'r'])
     const [score, setScore] = useState(0)
@@ -23,6 +23,8 @@ const Games4 = () => {
     const [timerId, setTimerId] = useState();
     const [timer, setTimer] = useState(0);
     const [clicks, setClicks] = useState(0)
+
+    let list = [clicks, score, clicks-score, score, score/clicks, (clicks-score)/clicks];
 
     const navigateToNext = () => {
       navigate('/game-complete');
@@ -82,29 +84,29 @@ const Games4 = () => {
 
 
   return (
-    <div class="container4">
-      <div class="grid4">
-        <div class="box4" onClick={() => openOptions(0)}><h1>{word[0]}</h1></div>
-        <div class="box4" onClick={() => openOptions(1)}><h1>{word[1]}</h1></div>
-        <div class="box4" onClick={() => openOptions(2)}><h1>{word[2]}</h1></div>
-        <div class="box4" onClick={() => openOptions(3)}><h1>{word[3]}</h1></div>
-        <div class="box4" onClick={() => openOptions(4)}><h1>{word[4]}</h1></div>
+    <div class="container">
+      <div class="grid">
+        <div class="box" onClick={() => openOptions(0)} style={{ backgroundColor: active ? "#eee" : "white" }}><h1>{word[0]}</h1></div>
+        <div class="box" onClick={() => openOptions(1)} style={{ backgroundColor: active ? "#eee" : "white" }}><h1>{word[1]}</h1></div>
+        <div class="box" onClick={() => openOptions(2)} style={{ backgroundColor: active ? "#eee" : "white" }}><h1>{word[2]}</h1></div>
+        <div class="box" onClick={() => openOptions(3)} style={{ backgroundColor: active ? "#eee" : "white" }}><h1>{word[3]}</h1></div>
+        <div class="box" onClick={() => openOptions(4)} style={{ backgroundColor: active ? "#eee" : "white" }}><h1>{word[4]}</h1></div>
       </div>
-      <div class="separator4"><p></p></div>
+      <div class="separator"><p></p></div>
         { firstOptions &&
-        <div class="grid44">
-            <div class="box44" onClick={() => handleClick(0)}><h1>{letters[0]}</h1></div>
-            <div class="box44" onClick={() => handleClick(1)}><h1>{letters[1]}</h1></div>
-            <div class="box44" onClick={() => handleClick(2)}><h1>{letters[2]}</h1></div>
-            <div class="box44" onClick={() => handleClick(3)}><h1>{letters[3]}</h1></div>
-            <div class="box44" onClick={() => handleClick(4)}><h1>{letters[4]}</h1></div>
+        <div class="grid">
+            <div class="box" onClick={() => handleClick(0)}><h1>{letters[0]}</h1></div>
+            <div class="box" onClick={() => handleClick(1)}><h1>{letters[1]}</h1></div>
+            <div class="box" onClick={() => handleClick(2)}><h1>{letters[2]}</h1></div>
+            <div class="box" onClick={() => handleClick(3)}><h1>{letters[3]}</h1></div>
+            <div class="box" onClick={() => handleClick(4)}><h1>{letters[4]}</h1></div>
         </div>
         }
       <div>
-        <h1>{score}</h1>
+        <h1 class="score4">{score}</h1>
       </div>
       <div>
-      <h1 class="time4r">{useEffect(() => {onStart()}, [])}</h1>
+      <h1 class="timer4">{useEffect(() => {onStart()}, [])}</h1>
         {timer < 31 && <h1 class="timer4">{timer}</h1>}
         {timer > 30 && navigateToNext()}
       </div>

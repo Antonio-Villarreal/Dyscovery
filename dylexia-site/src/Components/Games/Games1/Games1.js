@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react'
 import {Routes, Route, useNavigate} from 'react-router-dom';
 import './Games1.css';
 
-
-
 const Games1 = () => {
   const navigate = useNavigate();
   const charArray = ['q', 'd', 'p', 'b'];
@@ -13,6 +11,8 @@ const Games1 = () => {
   const [hits, setHits] = useState(0);
   const [clicks, setClicks] = useState(0)
   const [misses, setMisses] = useState(0)
+
+  let list1 = [clicks, hits, misses, hits, hits/clicks, misses/clicks];
 
   const navigateToNext = () => {
     navigate('/game2-instruct');
@@ -55,12 +55,9 @@ const Games1 = () => {
 
   const handleClick = (index) => {
     updateValues(index)
-
     const randomChar = getRandomChar();
     setLetter(randomChar);
   };
-
-
 
   return (
     <div>

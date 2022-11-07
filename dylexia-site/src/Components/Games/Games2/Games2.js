@@ -13,6 +13,7 @@ const Games2 = () => {
   const [misses, setMisses] = useState(0)
   const [timerId, setTimerId] = useState();
   const [timer, setTimer] = useState(0);
+  let list2 = [clicks, hits, misses, hits, hits/clicks, misses/clicks];
 
   const navigateToNext = () => {
     navigate('/game3-instruct');

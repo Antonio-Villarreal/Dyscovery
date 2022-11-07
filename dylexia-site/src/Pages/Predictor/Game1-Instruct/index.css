@@ -8,3 +8,25 @@
     text-align: center;
     margin-top: 10%;
   }
+
+  .container1 {
+    position: absolute;
+
+    top: 200px;
+    right: 50%;
+ 
+  }
+
+  .container11 {
+    position: absolute;
+
+    top: 270px;
+    right: 650px;
+ 
+  }
+
+  .container111 {
+    position: absolute;
+    top: 350px;
+    right: 50%;
+  }

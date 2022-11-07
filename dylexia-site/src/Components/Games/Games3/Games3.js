@@ -7,8 +7,8 @@ import './Games3.css'
 const Games3 = () => {
   const navigate = useNavigate();
   
-  const stringArray = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
-  const stringArray2 = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's'], ['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
+  const stringArray = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
+  const stringArray2 = [['r', 'e', 'g', 'a', 'l'], ['r', 'i', 'v', 'a', 'l'], ['c', 'h', 'o', 'm', 'p'], ['c', 'h', 'a', 'r', 's'],  ['s', 'p', 'a', 'c', 'e'], ['s', 't', 'a', 'm', 'p'], ['l', 'i', 'v', 'e', 's']]
   const [word, setWord] = useState(['g', 'a', 't', 'o', 'r']);
   const [scramble, setScramble] = useState(['o', 't', 'a', 'g', 'r'])
   const [index, setIndex] = useState(0)
@@ -17,6 +17,7 @@ const Games3 = () => {
   const [clicks, setClicks] = useState(0)
   const [timerId, setTimerId] = useState();
   const [timer, setTimer] = useState(0);
+  let list = [clicks, score, clicks-score, score, score/clicks, (clicks-score)/clicks];
 
   const navigateToNext = () => {
     navigate('/game4-instruct');
@@ -78,13 +79,13 @@ const Games3 = () => {
 
 
   return (
-    <div class="container">
+    <div class="container3">
       <div class="grid3">
-        <div class="box33"><h1>{solution[0]}</h1></div>
-        <div class="box33"><h1>{solution[1]}</h1></div>
-        <div class="box33"><h1>{solution[2]}</h1></div>
-        <div class="box33"><h1>{solution[3]}</h1></div>
-        <div class="box33"><h1>{solution[4]}</h1></div>
+        <div class="box3"><h1>{solution[0]}</h1></div>
+        <div class="box3"><h1>{solution[1]}</h1></div>
+        <div class="box3"><h1>{solution[2]}</h1></div>
+        <div class="box3"><h1>{solution[3]}</h1></div>
+        <div class="box3"><h1>{solution[4]}</h1></div>
         <div class="box3" onClick={() => handleClick(0)}><h1>{scramble[0]}</h1></div>
         <div class="box3" onClick={() => handleClick(1)}><h1>{scramble[1]}</h1></div>
         <div class="box3" onClick={() => handleClick(2)}><h1>{scramble[2]}</h1></div>
