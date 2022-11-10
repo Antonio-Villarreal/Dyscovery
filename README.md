@@ -12,13 +12,13 @@ Our website provides information about the condition and predicts if a user is D
 ![Game1](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game1.png)
 
 **Game 2**: Incorporates the use of similar letters on a 5x5 grid to challenge the individual over a period of time. However, this time, there are only two letters, F and E. The game asks the individual to pick only one letter 'E' out of a full pool of the letter 'F'. This progressively challenges the individual due to the fact that the elements are harder to distinguish because they are phonetically and orthographically more similar.
-![Game2(https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game2.png)
+![Game2](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game2.png)
 
 **Game 3**: Shifts on to our next method of detecting dyslexia, where we have designed a scramble of five letters and the individual has to re-order them in a way that builds a real word. This tests their word identification, lexical knowledge, and other linguistic skills to figure out whether they are able to accurately form words over a certain period of time.
-![Game3(https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game3.png)
+![Game3](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game3.png)
 
 **Game 4**: Consists of having the individual build the correct word by eliminating one added letter in the word. This determines whether the individual is able to correctly identify words using their lexical knowledge.
-![Game4(https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png)
+![Game4](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png)
 
 ## How we built it
 This React Website was built using JavaScript, HTML, and CSS and associated libraries such as Bootstrap and Fluent UI. We set up a Python REST API Server using Fast API and Uvicorn to deploy our Decision Tree Machine Learning Model (created initially in Jupyter Notebook). We used Pickle, another Python library, to train and reload our model.
@@ -35,7 +35,7 @@ Sanjay Taylor - https://www.linkedin.com/in/sanjaytaylor/
 Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/  
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
 Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/ 
-![Teamtps://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
+![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
 ## References
 Dataset on Kaggle: https://www.kaggle.com/datasets/luzrello/dyslexia
