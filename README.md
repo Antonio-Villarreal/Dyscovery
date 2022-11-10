@@ -10,8 +10,8 @@
   - [Game 3](#game-3)
   - [Game 4](#game-4)
 - [How we built it](#how-we-built-it)
-- [Challenges we ran into](#challenges-we-ran-into)
-- [Accomplishments that we're proud of](#accomplishments-that-we're-proud-of)
+- [Challenges](#challenges)
+- [Accomplishments](#accomplishments)
 
 ## Inspiration
 We were tasked with creating a project that improves patient or healthcare education. When we first started collaborating as a team one of the ideas that came up was Dyslexia, which is one of the most common learning disabilities in children. We were able to find research and a dataset that we felt could improve patient education surrounding the most common learning disability in children, Dyslexia. Within the United States, about 14.5 to 43.5 million children and adults have dyslexia and we knew we could help raise awareness about it through our project.
@@ -46,10 +46,10 @@ Our website provides information about the condition and predicts if a user is D
 ## How we built it
 This React Website was built using JavaScript, HTML, and CSS and associated libraries such as Bootstrap and Fluent UI. We set up a Python REST API Server using Fast API and Uvicorn to deploy our Decision Tree Machine Learning Model (created initially in Jupyter Notebook). We used Pickle, another Python library, to train and reload our model.
 
-## Challenges we ran into
+## Challenges
 The biggest challenge we had was setting up the backend. The core part of our project is to take game data from the Frontend, send it to be processed by the Machine Learning Model, and communicate it back to the user through the Frontend. We began attempting to use Flask, a python based web framework, but after much difficulty, we decided to use FastAPI which enabled us to easily build a REST API server to perform POST requests.
 
-## Accomplishments that we're proud of
+## Accomplishments
 Since this is our first hackathon experience being able to develop our own project from the whiteboard to the code was an amazing experience. Each of us brought unique ideas to the table, especially since we are a multidisciplinary team, and learned a lot of new skills which was the most important part. Seeing people's reaction's to our work and knowing we developed something that has positive intentions was the thing we were the proudest of.
 
 ## Team
