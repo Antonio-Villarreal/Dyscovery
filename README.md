@@ -5,6 +5,13 @@
 # Table of Contents
 - [Inspiration](#inspiration)
 - [What is Dyscovery?](#what-is-dyscovery)
+  - [Game 1](#game-1)
+  - [Game 2](#game-2)
+  - [Game 3](#game-3)
+  - [Game 4](#game-4)
+- [How we built it](#how-we-built-it)
+- [Challenges we ran into](#challenges-we-ran-into)
+- [Accomplishments that we're proud of](#accomplishments-that-we're-proud-of)
 
 ## Inspiration
 We were tasked with creating a project that improves patient or healthcare education. When we first started collaborating as a team one of the ideas that came up was Dyslexia, which is one of the most common learning disabilities in children. We were able to find research and a dataset that we felt could improve patient education surrounding the most common learning disability in children, Dyslexia. Within the United States, about 14.5 to 43.5 million children and adults have dyslexia and we knew we could help raise awareness about it through our project.
