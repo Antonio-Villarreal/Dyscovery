@@ -2,6 +2,8 @@
 
 ![Homepage](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Home.png)
 
+Check out our [DevPost](https://devpost.com/software/dyslexia-diagnosis-game)
+
 ## Table of Contents
 - [Inspiration](#inspiration)
 - [What is Dyscovery?](#what-is-dyscovery)
