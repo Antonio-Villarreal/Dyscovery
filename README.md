@@ -8,16 +8,16 @@ We were tasked with creating a project that improves patient or healthcare educa
 ## What is Dyscovery?
 Our website provides information about the condition and predicts if a user is Dyslexic by replicating four distinct word games from a prominent dyslexia medical study. We use indicators from the user playing the games (including clicks, hits, misses, overall accuracy, and time taken) and their demographics. Using a Machine Learning Decision Tree to perform the prediction, the model can predict dyslexia with 85.19% accuracy and sends that result to the user using a REST API.
 
-**Game 1**: Focuses on clicking a certain letter from a pool of similar-looking letters. In our game, we used the letters b, d, q, and p on a 5x5 grid due to their similarity, which would ideally work against someone that has dyslexia. With a time limit and an objective to get as many correct questions as possible in the allotted time, someone who deals with dyslexia can find this exercise to be especially difficult, which causes them to either get the questions incorrectly or take more time to figure out which letter to correctly choose.
+**Game 1**: Focuses on clicking a certain letter from a pool of similar-looking letters. In our game, we used the letters b, d, q, and p on a 5x5 grid due to their similarity, which would ideally work against someone that has dyslexia. With a time limit and an objective to get as many correct questions as possible in the allotted time, someone who deals with dyslexia can find this exercise to be especially difficult, which causes them to either get the questions incorrectly or take more time to figure out which letter to correctly choose.  
 ![Game1](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game1.png)
 
-**Game 2**: Incorporates the use of similar letters on a 5x5 grid to challenge the individual over a period of time. However, this time, there are only two letters, F and E. The game asks the individual to pick only one letter 'E' out of a full pool of the letter 'F'. This progressively challenges the individual due to the fact that the elements are harder to distinguish because they are phonetically and orthographically more similar.
+**Game 2**: Incorporates the use of similar letters on a 5x5 grid to challenge the individual over a period of time. However, this time, there are only two letters, F and E. The game asks the individual to pick only one letter 'E' out of a full pool of the letter 'F'. This progressively challenges the individual due to the fact that the elements are harder to distinguish because they are phonetically and orthographically more similar.  
 ![Game2](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game2.png)
 
-**Game 3**: Shifts on to our next method of detecting dyslexia, where we have designed a scramble of five letters and the individual has to re-order them in a way that builds a real word. This tests their word identification, lexical knowledge, and other linguistic skills to figure out whether they are able to accurately form words over a certain period of time.
+**Game 3**: Shifts on to our next method of detecting dyslexia, where we have designed a scramble of five letters and the individual has to re-order them in a way that builds a real word. This tests their word identification, lexical knowledge, and other linguistic skills to figure out whether they are able to accurately form words over a certain period of time.  
 ![Game3](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game3.png)
 
-**Game 4**: Consists of having the individual build the correct word by eliminating one added letter in the word. This determines whether the individual is able to correctly identify words using their lexical knowledge.
+**Game 4**: Consists of having the individual build the correct word by eliminating one added letter in the word. This determines whether the individual is able to correctly identify words using their lexical knowledge.  
 ![Game4](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png)
 
 ## How we built it
@@ -34,7 +34,7 @@ Antonio Villarreal - https://www.linkedin.com/in/antoniovillarreal2024/
 Sanjay Taylor - https://www.linkedin.com/in/sanjaytaylor/  
 Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/  
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
-Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/ 
+Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
 ![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
 ## References
