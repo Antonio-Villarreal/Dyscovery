@@ -1,6 +1,6 @@
 # Dyscovery
 
-# Table of Contents
+## Table of Contents
 - [Inspiration](#inspiration)
 - [What is Dyscovery?](#what-is-dyscovery)
   - [Game 1](#game-1)
