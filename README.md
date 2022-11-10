@@ -36,7 +36,7 @@ Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
 Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
 
-![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
+![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg =x0.5)
 
 ## Dataset
 Dataset on Kaggle: https://www.kaggle.com/datasets/luzrello/dyslexia
