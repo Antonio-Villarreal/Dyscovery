@@ -1,8 +1,8 @@
 # Dyscovery
 
-![Homepage](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Home.png)
-
 This was a project created for [Dream Team Engineering's](https://www.ufdreamteam.org/dream-team-engineering) Design-A-Thon on 11/5/22. Please check out our [DevPost](https://devpost.com/software/dyslexia-diagnosis-game)!
+
+![Homepage](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Home.png)
 
 ## Table of Contents
 - [Inspiration](#inspiration)
