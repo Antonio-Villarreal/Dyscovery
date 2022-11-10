@@ -22,7 +22,6 @@ Our website provides information about the condition and predicts if a user is D
 <p align="center">
   <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png">
 </p>
-![Game4](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png)
 
 ## How we built it
 This React Website was built using JavaScript, HTML, and CSS and associated libraries such as Bootstrap and Fluent UI. We set up a Python REST API Server using Fast API and Uvicorn to deploy our Decision Tree Machine Learning Model (created initially in Jupyter Notebook). We used Pickle, another Python library, to train and reload our model.
