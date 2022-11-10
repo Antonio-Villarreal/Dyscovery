@@ -1,6 +1,6 @@
 # Dyscovery
 
-![Dyscovery] (./Dysovery/Images/Screenshot_20221108_035039.png)
+![Dyscovery] (Images/Screenshot_20221108_035039.png)
 
 ## Inspiration
 We were tasked with creating a project that improves patient or healthcare education. When we first started collaborating as a team one of the ideas that came up was Dyslexia, which is one of the most common learning disabilities in children. We were able to find research and a dataset that we felt could improve patient education surrounding the most common learning disability in children, Dyslexia. Within the United States, about 14.5 to 43.5 million children and adults have dyslexia and we knew we could help raise awareness about it through our project.
