@@ -35,6 +35,7 @@ Sanjay Taylor - https://www.linkedin.com/in/sanjaytaylor/
 Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/  
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
 Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
+
 ![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
 ## References
