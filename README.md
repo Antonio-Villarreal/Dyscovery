@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Inspiration](#inspiration)
 - [What is Dyscovery?](#what-is-dyscovery)
-  - [Game 1](#game-1) | [Game 2](#game-2) | [Game 3](#game-3) | [Game 4](#game-4)
 - [How we built it](#how-we-built-it)
 - [Challenges](#challenges)
 - [Accomplishments](#accomplishments)
