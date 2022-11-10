@@ -9,7 +9,7 @@
 ## Inspiration
 We were tasked with creating a project that improves patient or healthcare education. When we first started collaborating as a team one of the ideas that came up was Dyslexia, which is one of the most common learning disabilities in children. We were able to find research and a dataset that we felt could improve patient education surrounding the most common learning disability in children, Dyslexia. Within the United States, about 14.5 to 43.5 million children and adults have dyslexia and we knew we could help raise awareness about it through our project.
 
-## What is Dyscovery
+## What is Dyscovery?
 Our website provides information about the condition and predicts if a user is Dyslexic by replicating four distinct word games from a prominent dyslexia medical study. We use indicators from the user playing the games (including clicks, hits, misses, overall accuracy, and time taken) and their demographics. Using a Machine Learning Decision Tree to perform the prediction, the model can predict dyslexia with 85.19% accuracy and sends that result to the user using a REST API.
 
 **Game 1**: Focuses on clicking a certain letter from a pool of similar-looking letters. In our game, we used the letters b, d, q, and p on a 5x5 grid due to their similarity, which would ideally work against someone that has dyslexia. With a time limit and an objective to get as many correct questions as possible in the allotted time, someone who deals with dyslexia can find this exercise to be especially difficult, which causes them to either get the questions incorrectly or take more time to figure out which letter to correctly choose.  
