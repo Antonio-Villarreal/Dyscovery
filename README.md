@@ -38,7 +38,8 @@ Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/
 
 ![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
-## References
+## Dataset
 Dataset on Kaggle: https://www.kaggle.com/datasets/luzrello/dyslexia
 
+## Medical Study
 L. Rello, R. Baeza-Yates, A. Ali, J. P. Bigham, and M. Serra, “Predicting risk of dyslexia with an online gamified test,” PLOS ONE, vol. 15, no. 12, 2020. 
