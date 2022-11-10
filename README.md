@@ -36,7 +36,9 @@ Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
 Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
 
-<img src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg" align="center" width="600" height="600"> 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg">
+</p>
 
 ![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
