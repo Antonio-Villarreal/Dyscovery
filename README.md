@@ -18,6 +18,10 @@ Our website provides information about the condition and predicts if a user is D
 ![Game3](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game3.png)
 
 **Game 4**: Consists of having the individual build the correct word by eliminating one added letter in the word. This determines whether the individual is able to correctly identify words using their lexical knowledge.  
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png">
+</p>
 ![Game4](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game4.png)
 
 ## How we built it
@@ -39,8 +43,6 @@ Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/
 <p align="center">
   <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg">
 </p>
-
-![Team](https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg)
 
 ## Dataset
 Dataset on Kaggle: https://www.kaggle.com/datasets/luzrello/dyslexia
